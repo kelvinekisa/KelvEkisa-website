@@ -1,5 +1,5 @@
 body {
-    background: #eef8ff;
+    background: linear-gradient(to right, #a38ba8, #e7c4b8, #c28cce, #c57171);
 }
 
 .banner {
@@ -36,8 +36,10 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
     text-transform: uppercase;
+    text-shadow: #767676;
 
 }
 .nav-item::after{
@@ -62,7 +64,16 @@ body {
     
 
 }
-
+.dropdown-menu {
+    background:linear-gradient(to right, #1a1953, #1f2b41, #181a3f);
+    ;
+}
+.dropdown-menu li a {
+    color: white;
+}
+.dropdown-menu p{
+    color: gold;
+}
 footer {
     width: 100%;
     position: absolute;
@@ -72,6 +83,7 @@ footer {
     padding: 100px 0 30px;
     font-size: 13px;
     border-top-left-radius: 125px;
+    border-top-right-radius: 20px;
     line-height: 20px;
 }
 .row {
