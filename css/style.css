@@ -1,6 +1,7 @@
 body {
     background: #eef8ff;
 }
+
 .banner {
     width: 100%;
     height: 100vh;
@@ -8,11 +9,24 @@ body {
     background-size: cover;
     background-position: center;
 }
+.navbar-brand {
+    margin-right: auto; /* Pushes the logo to the left */
+    padding: 0; /* Remove default padding */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold; /* Make the logo bold */
+    color: #ffffff; /* Change logo color */
+  }
+.navbar-nav {
+    margin-left: auto; /* Pushes the links to the center*/
+}
 .navbar {
     width: 99%;
     margin:auto;
     padding: 35px 0;
+    border-radius: 20px;
+    background: linear-gradient(to right, #280430, #5c2310, #280430, #767676);
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
 
@@ -22,7 +36,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     text-transform: uppercase;
 
 }
@@ -36,10 +50,15 @@ body {
     bottom: -10px;
 
 }
+.navbar-toggler-icon {
+    color: #009688;
+}
 
 .logo {
-    width: 120px;
+    font-size: 30px;
+    padding: 1px;
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 
 }
